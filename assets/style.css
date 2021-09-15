@@ -1,0 +1,101 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* цей шрифт підключався через посилання на google fonts */
+    font-size: 20px; 
+    line-height: 1.5;   /* відстань між строками тексту */
+    font-weight: 800;
+    color: #333;
+
+    display: flex;      /* елементи всередині body поводять себе як блочні, але компонуються вони у режимі, який можна налаштувати через інші властивості (flex-direction, justify-content і тд.)  */
+    flex-direction: column;
+}
+
+/* tables decoration */
+table, tr, td, th {
+    border-collapse: collapse; /* щоб лінії таблиці були одинарними */
+    border: 1px solid black;
+}
+
+.container {
+    height: inherit;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    background-color: #153131;
+}
+
+.header_inner {
+    display: flex;  /*поведінка відображення внутрішніх елеменів : елементи всередині header_inner поводять себе як блочні, але компонуються у режимі, який можна налаштувати через інші властивості (flex-direction, justify-content і тд.) */
+    justify-content: space-between; /* як внутрішні елементи розміщуються вздовж осі свого вирівнювання : елементи розподілені рівномірно вздовж осі вирівнювання з однаковими проміжками між ними */
+    align-items: baseline; /* прилягання внутрішніх елментів : до нижньої границі  */
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 900;
+    color: #00A676;
+}
+
+/* Navigation bar */
+.nav {
+    font-weight: 600;
+    font-size: large;
+}
+
+/* Links decorations */
+.nav_link, .sign_up_link {
+    display:inline-block; /*поведінка відображення елемента : елемент є блочним та зберігає форму при зміні розміру сторінки (якщо буде замало місця елемент перенесется повністю, а не частиною )*/
+    margin: 0 20px;       /* ! тим самим задаємо мінімальну відстань між посиланнями  ! */
+
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s linear; /* перехід у тимчасовий стан : [колір] [час переходу] [лінійний тип переходу]. Перехід виконується під час зміни стану об'єкта (наприклад на об'єкт навели мишкою :hover)) */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(9, 110, 31);
+    transition: color 0.5s linear;
+}
+
+.nav_link:hover, .sign_up_link:hover, a:hover { /* псевдокласи *:hower - змінюють стан об'єктів класу при наведені мишкою */
+    color: #00A676 /* властивість, що змінюється */
+}
+/*=========================================*/
+
+/* CONTENT */
+.content {
+    width: 100%;
+    background-color: #D1FAFF;
+}
+/*=========================================*/
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    height: 15vh;
+    background-color: #212922;
+}
+
+.footer_inner {
+    height: inherit;
+    display: flex;
+    justify-content: center;    /* відцентрувати по вертикалі */
+    align-items: center;        /* відцентрувати по горизонталі */
+}
+
+.footer_nav {
+    font-size: 20px;
+    font-weight: 500;
+}
+/*=========================================*/
+
