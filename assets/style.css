@@ -99,3 +99,27 @@ a {
 }
 /*=========================================*/
 
+/*AboutUs*/
+
+.command {
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.command td{
+    vertical-align: middle;
+    text-align: center;
+}
+.command th{
+    background:grey;
+}
+.email{
+    padding: 15px;
+}
+
+.imgContainer {
+    display: block;
+    width: 250px; 
+    height: 300px;
+}
+
