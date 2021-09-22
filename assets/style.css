@@ -117,9 +117,13 @@ a {
     padding: 15px;
 }
 
-.imgContainer {
-    display: block;
-    width: 250px; 
-    height: 300px;
+.img_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+.aboutUs_img {
+    width: 200px;
+    margin: auto 20px;
+}
