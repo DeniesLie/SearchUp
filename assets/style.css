@@ -2,14 +2,17 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-body {
-    margin: 0;
+/* Універсальний селектор */
+* {
     font-family: 'Montserrat', sans-serif; /* цей шрифт підключався через посилання на google fonts */
-    font-size: 20px; 
     line-height: 1.5;   /* відстань між строками тексту */
-    font-weight: 800;
     color: #333;
+}
 
+body {
+    font-size: 20px; 
+    margin: 0;
+    font-weight: 600;
     display: flex;      /* елементи всередині body поводять себе як блочні, але компонуються вони у режимі, який можна налаштувати через інші властивості (flex-direction, justify-content і тд.)  */
     flex-direction: column;
 }
@@ -18,7 +21,7 @@ body {
 table, tr, td, th {
     border-collapse: collapse; /* щоб лінії таблиці були одинарними */
     border: 1px solid black;
-}
+} 
 
 .container {
     height: inherit;
@@ -76,6 +79,12 @@ a {
 .content {
     width: 100%;
     background-color: #D1FAFF;
+}
+
+/* приклад використання атрибутного селектора */
+img[alt = "activities"]{
+    display: block;
+    margin: 20px auto;
 }
 /*=========================================*/
 
