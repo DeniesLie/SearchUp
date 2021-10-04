@@ -23,6 +23,11 @@ table, tr, td, th {
     border: 1px solid black;
 } 
 
+/* lists decoration*/
+ul {
+    list-style-type: circle; /* для ненумерованого списку елементи позначаються колами */
+}
+
 .container {
     height: inherit;
     width: 90%;
@@ -135,4 +140,10 @@ img[alt = "activities"]{
 .aboutUs_img {
     width: 200px;
     margin: auto 20px;
+}
+
+/* About project */
+.site-description img {
+    float: right;
+    margin: 0 0 4px 10px;
 }
