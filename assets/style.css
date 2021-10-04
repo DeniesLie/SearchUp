@@ -143,6 +143,7 @@ img[alt = "activities"]{
 }
 
 /* About project */
+/* контексний селектор + плаваючий об`єкт */
 .site-description img {
     float: right;
     margin: 0 0 4px 10px;
