@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T15:32:04.260Z" agent="5.0 (X11)" etag="PqZJ5MdPEEd9gjk1NsjD" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T15:34:52.010Z" agent="5.0 (X11)" etag="HgRIXLJcV9mNwFwUDLod" version="15.5.9" type="github">
   <diagram id="-fiyKqTG5DQmv4OYRR-T" name="Page-1">
     <mxGraphModel dx="1436" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -248,6 +248,12 @@
         </mxCell>
         <mxCell id="AoD5fW6nhINeNirbSQVH-2" value="Show followings" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="378.75" y="360" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AoD5fW6nhINeNirbSQVH-11" value="About us" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="360" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AoD5fW6nhINeNirbSQVH-12" value="About project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="410" width="75" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
